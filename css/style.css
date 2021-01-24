@@ -1,0 +1,373 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Poppins;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+
+header nav{
+    width: 50%;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    margin-right: 5%;
+    font-size: 2.4rem;
+}
+
+header p {
+    margin-right: 43%;
+    font-size: 3.6rem;
+    font-family: Heebo;
+    font-weight: bold;
+}
+
+/*************
+FIRST SECTION
+**************/
+
+.first{
+    margin-bottom: 15%;
+}
+
+.first .title {
+    margin-left: 20%;
+}
+
+.first .title p, .first .title span {
+    font-family: Poppins;
+    font-size: 1.8rem;
+    margin-bottom: 3%;
+}
+.first .title span {
+    color: #2D9CDB;
+}
+
+
+.first .title h2{
+    color: black;
+    font-size: 4.8rem;
+    line-height: 7.2rem;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.first .image-center{
+    text-align: center;
+}
+
+.first p img{
+    border-radius: 10px;
+    width: 90%;
+}
+
+ .form{
+    position: relative;
+}
+
+ .form label{
+    margin-bottom: 2vh;
+    font-size: 1.4rem;
+    font-family: poppins;
+    
+}
+
+ .form input::placeholder{
+    font-size: 1.8rem;
+    margin-left: 1%;
+    color: gray;
+}
+
+ .form input{
+    margin-top:1%;
+    background-color: #F2F2F2;
+    border-radius: 8px;
+    height: 7vh;
+    width: 25.5vw;
+}
+
+ .form button{
+    position: absolute;
+    left: 18.6vw;
+    top: 40%;
+    font-size: 1.8rem;
+    width: 7vw;
+    height: 7vh;
+    color: white;
+    background-color: #2D9CDB;
+    border-radius: 10px;
+}
+
+/*************
+SECOND SECTION
+**************/
+
+.second{
+    /* height:70vh; */
+    margin-bottom: 15%;
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.h3{
+    font-size: 3.6rem;
+    font-family: Poppins;
+    margin-left: 13vw;
+    margin-bottom: 4%;
+
+    
+}
+
+.service{
+    width: 20%;
+    height: 60%;
+    border-radius: 20px;
+}
+ .service h4{
+     font-size: 2.4rem;
+     margin: 3vh 3vh 3vh 3vh;
+}
+
+.service p {
+    font-size: 1.6rem;
+    margin: 3vh 0 0 3vh;
+}
+
+.service img{
+    width: 6.7rem;
+    margin: 3vh 0 0 3vh;
+}
+
+.service button{
+    font-size: 1.6rem;
+    color:#828282;
+    background-color:#E0E0E0 ;
+    padding: 3%;
+    border-radius: 10px;
+    margin: 3vh 0 0 3vh;
+}
+
+
+/*************
+Third SECTION
+**************/
+
+.third{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+   
+}
+
+.third-1 .work, .third-2 .work{
+    margin-bottom: 25%;
+}
+
+.third-1 img, .third-2 img{
+    margin: 0 0.5vw 0 0.5vw;
+    width: 54rem;
+    height: 54rem;
+    border-radius: 30px;
+}
+.third-1, .third-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.third-1{
+    margin-top: 23vh;
+}
+
+.third .work p{
+    color: #828282;
+    font-size: 1.4rem;
+    margin-top: 2vh;
+    margin-bottom: 1.2vh;
+}
+
+.third .work h5{
+    font-size: 2.4rem;
+}
+
+.third .work p, .third .work h5{
+    margin-left: 1vw;
+}
+
+.third span{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    color: #2D9CDB;
+    top:90%;
+    font-size: 2.4rem;
+    left: 80%;
+
+}
+
+/*************
+Fourth SECTION
+**************/
+
+.fourth{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;   
+    margin-bottom: 15%;
+}
+
+.fourth img{
+    width: 23rem;
+    height: 23rem;
+    border-radius: 20px;
+    margin: 1vh 1vw 1vh 1vw;
+}
+
+
+.fourth .group-person{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.fourth .presenting{
+    margin-right: 20%;
+}
+
+.fourth .presenting span{
+    color:#EB5757;
+    font-size: 1.8rem;
+}
+
+.fourth .presenting h5{
+    font-size: 3.6rem;
+    margin-bottom: 1vh;
+}
+
+
+.fourth .presenting p{
+    font-size: 1.6rem;
+    margin-bottom: 1vh;
+    color: #4F4F4F;
+}
+
+/*************
+CARLOS
+**************/
+
+.Carlos{
+    margin-bottom: 10%;
+}
+
+.Carlos p {
+    font-size: 3.6rem;
+    margin-left: 10%;
+}
+
+.Carlos .Carlos-img img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 10px;
+}
+
+.Carlos-img{
+    display: flex ;
+    flex-wrap: wrap;
+    margin-left: 10% ;
+    margin-top: 3%;
+}
+
+.Carlos-img p {
+    color: black;
+    font-size: 2.4rem;
+    margin-left: 0;
+    line-height: 3.8rem;
+}
+
+.Carlos-img-text{
+    width: 100%;
+}
+
+.Carlos-img-text #gray{
+    color: #828282;
+    font-size: 1.8rem;
+}
+
+/*************
+FOOTER
+**************/
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 40vh;
+    
+}
+
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+}
+
+.social-media{
+    width: 9rem;
+}
+
+
+.social-media p{
+    color: white;
+    font-family: Heebo;
+    font-size:3.6rem;
+    font-weight: bold;
+}
+
+.social-media img{
+    width: 2.4rem;
+    height: 2.4rem;
+    margin: 1.5%;
+}
+
+footer .form label{
+    color: white;
+}
+
+footer .form button{
+    top: 34%;
+}
+
+ .footer-span{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+span p{
+    color: black;
+    font-size: 1.4rem;
+    letter-spacing: 0.3rem;
+}
+
+
